@@ -1,0 +1,27 @@
+#include <iostream>
+#include <stdexcept>
+#include <ostream>
+
+using std::cout;
+using std::endl;
+using std::ostream;
+
+// NodeT class definition
+template <class T>
+class NodeT{
+public:
+
+}
+
+// QueueT class definition
+template <class T>
+class QueueT{
+public:
+
+    // other functions 
+
+    QueueT<T> qconcatenate(QueueT<T> q1, QueueT<T> q2);
+
+private:
+
+}
